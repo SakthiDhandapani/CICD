@@ -1,6 +1,6 @@
-def bucket = 'deployment-packages-mlabouardy'
+def bucket = 'haeron-storage'
 def functionName = 'Fibonacci'
-def region = 'eu-west-3'
+def region = 'ap-south-1'
 
 node('slaves'){
     stage('Checkout'){
