@@ -1,7 +1,7 @@
 variable "region" {
-  default = "eu-west-3"
+  default = "ap-south-1"
 }
 
 variable "bucket" {
-  default = "deployment-packages-mlabouardy"
+  default = "haeron-storage"
 }
