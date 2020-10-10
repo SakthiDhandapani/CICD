@@ -2,7 +2,7 @@ def bucket = 'haeron-storage'
 def functionName = 'Fibonacci'
 def region = 'ap-south-1'
 
-node('slaves'){
+node('master'){
     stage('Checkout'){
         checkout scm
     }
